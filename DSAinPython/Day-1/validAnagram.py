@@ -27,11 +27,11 @@ else:
 
 # another solution is to use
 
-return Counter(s) == Counter(t)
+# return Counter(s) == Counter(t)
 
-# sorting
+# # sorting
 
-s = "anagram"
-t = "nagaram"
+# s = "anagram"
+# t = "nagaram"
 
-print(sorted(s) == sorted(t))
+# print(sorted(s) == sorted(t))
