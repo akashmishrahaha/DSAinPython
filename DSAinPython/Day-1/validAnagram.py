@@ -24,3 +24,14 @@ if dict1 == dict2:
     print("true")
 else:
     print("false")
+
+# another solution is to use
+
+return Counter(s) == Counter(t)
+
+# sorting
+
+s = "anagram"
+t = "nagaram"
+
+print(sorted(s) == sorted(t))
